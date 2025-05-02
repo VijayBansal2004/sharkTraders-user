@@ -1,0 +1,100 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-light">
+  <a class="navbar-brand" [routerLink]="'/'"
+    ><img
+      class="header-logo"
+      src="/assets/front/images/Shark/Shark_Traders_PNG-1.png"
+      style="max-width: 170px"
+  /></a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarTogglerDemo01"
+    aria-controls="navbarTogglerDemo01"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link navMenu" [routerLink]="'/'">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navMenu" href="#about">About Us</a>
+      </li>
+      <!-- Dasktop -->
+      <li class="nav-item d-none d-md-block">
+        <a class="nav-link navMenu" [routerLink]="'/multi-asset-platform'"
+          >Features</a
+        >
+      </li>
+      <!-- Dasktop -->
+
+      <!-- mobile -->
+      <details class="nav-item d-block d-md-none">
+        <summary class="nav-link navMenu">Feature</summary>
+        <a
+          class="nav-link navMenu ml-3 sub-links"
+          [routerLink]="'/multi-asset-platform'"
+          >Multi-Asset Platform</a
+        >
+        <a
+          class="nav-link navMenu ml-3 sub-links"
+          [routerLink]="'/technical-analysis'"
+          >Technical Analysis</a
+        >
+        <a
+          class="nav-link navMenu ml-3 sub-links"
+          [routerLink]="'/fundamental-analysis'"
+          >Fundamental Analysis</a
+        >
+        <a class="nav-link navMenu ml-3 sub-links" [routerLink]="'/automation'"
+          >Automation</a
+        >
+        <a
+          class="nav-link navMenu ml-3 sub-links"
+          [routerLink]="'/multiple-order-type'"
+          >Multiple Order Type</a
+        >
+        <a
+          class="nav-link navMenu ml-3 sub-links"
+          [routerLink]="'/predictive-trading-options'"
+          >Predictive Trading Options</a
+        >
+        <a
+          class="nav-link navMenu ml-3 sub-links"
+          [routerLink]="'/mobile-trading'"
+          >Mobile Trading</a
+        >
+        <a
+          class="nav-link navMenu ml-3 sub-links"
+          [routerLink]="'/web-platforms'"
+          >Web Platforms</a
+        >
+      </details>
+      <!-- mobile -->
+      <li class="nav-item">
+        <a class="nav-link navMenu" [routerLink]="'why-choose-us'"
+          >Why Choose Us</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navMenu" [routerLink]="'become-a-partner'"
+          >Become a Partner</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navMenu" [routerLink]="'blog'">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navMenu" [routerLink]="'contact-us'">Contact Us</a>
+      </li>
+    </ul>
+
+    <form class="d-flex">
+      <a [routerLink]="'get-demo'" class="get-demo">Get Demo</a>
+    </form>
+  </div>
+</nav>

@@ -1,0 +1,300 @@
+body {
+  scroll-behavior: smooth;
+}
+.pageBg {
+  background-color: #1c1c28;
+  overflow: hidden !important;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9,
+.div10,
+.div11,
+.div12 {
+  padding: 100px 115px 0 115px;
+}
+
+h1 {
+  font-size: 47px !important;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 38px !important;
+  line-height: normal;
+}
+
+h3 {
+  line-height: normal !important;
+}
+
+.div1Inner,
+.div4Inner,
+.div6Inner,
+.div8Inner,
+.div10Inner,
+.div11Inner {
+  display: flex;
+  flex-direction: row;
+}
+
+.div2Inner,
+.div5Inner,
+.div7Inner,
+.div9Inner,
+.div12Inner {
+  background-color: #28293d;
+}
+
+.div2Inner {
+  padding: 60px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+.div1Inner .pageBg {
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+.crypto-banner-image video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  max-width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.crypto-banner-image img:nth-child(1) {
+  filter: invert(1);
+  animation-duration: 50s;
+  animation-name: rotateme;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  filter: invert(0);
+}
+
+@keyframes rotateme {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.default-btn {
+  margin-top: 20px;
+  border: 0;
+  z-index: 1;
+  border-radius: 30px;
+  display: inline-block;
+  color: white;
+  padding: 15px 57px 15px 40px;
+  transition: 0.5s;
+  background: #40a4fa;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.default-btn:hover {
+  background-color: #ee362e !important;
+}
+
+.default-btn i {
+  transition: 0.5s;
+  transform: translateY(-50%);
+  position: absolute;
+  margin-top: 2px;
+  line-height: 1;
+  right: 35px;
+  top: 50%;
+}
+
+.elementor a {
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.child {
+  min-width: 250px;
+  width: 23%;
+  background-color: #28293d;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid transparent;
+}
+
+.overview-image img:nth-child(2) {
+  left: 0;
+  right: 0;
+  top: 53%;
+  position: absolute;
+  transform: translateY(-50%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.default-btn1 {
+  margin-top: 20px;
+  border: 0;
+  z-index: 1;
+  border-radius: 30px;
+  display: inline-block;
+  color: white;
+  padding: 15px 57px 15px 40px;
+  transition: 0.5s;
+  background: #ee362e;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.default-btn1:hover {
+  background-color: #40a4fa !important;
+}
+
+.default-btn1 i {
+  transition: 0.5s;
+  transform: translateY(-50%);
+  position: absolute;
+  margin-top: 2px;
+  line-height: 1;
+  right: 35px;
+  top: 50%;
+}
+
+.child:hover {
+  border: 1px solid #40a4fa;
+}
+
+.contact_section {
+  border-radius: 20px;
+  padding: 85px 100px;
+  background-position: center center;
+  background-color: #28293d;
+  position: relative;
+  background-image: url("../../../../public/assets/front/images/Shark/contact_img.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* home responsive */
+
+@media (max-width: 1250px) {
+  .div1,
+  .div2,
+  .div3,
+  .div4,
+  .div5,
+  .div6,
+  .div7,
+  .div8,
+  .div9,
+  .div10,
+  .div11,
+  .div12 {
+    padding: 70px 55px 0 55px;
+  }
+}
+
+@media (min-width: 991px) {
+  .text-lg-start {
+    text-align: start !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .child {
+    width: 48%;
+  }
+
+  .div1 h1 {
+    font-size: 35px !important;
+  }
+
+  .div2Inner {
+    padding: 30px 25px;
+  }
+}
+@media (max-width: 625px) {
+  .div1 {
+    padding-top: 100px !important;
+  }
+  .child {
+    width: 100%;
+  }
+
+  .div12 .div12Inner {
+    padding: 30px 25px;
+  }
+  .div1,
+  .div2,
+  .div3,
+  .div4,
+  .div5,
+  .div6,
+  .div7,
+  .div8,
+  .div9,
+  .div10,
+  .div11,
+  .div12 {
+    padding: 50px 10px 0 10px;
+  }
+
+  .div1 h1 {
+    font-size: 30px !important;
+  }
+
+  h2 {
+    font-size: 24px !important;
+  }
+
+  .default-btn {
+    margin: auto;
+  }
+
+  .div5Inner .row,
+  .div7Inner .row,
+  .div9Inner .row {
+    padding: 20px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .div12 .div12Inner {
+    padding: 20px 15px;
+  }
+}
+
+.div1 {
+  padding-top: 200px;
+}
+
+.default-btn {
+  width: fit-content;
+}

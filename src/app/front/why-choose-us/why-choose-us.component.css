@@ -1,0 +1,142 @@
+.pageBg {
+  background-color: #1c1c28;
+}
+
+.menu {
+  background-color: #3476c4;
+  box-shadow: 0 20px 30px -10px #000000fc;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.menuUl {
+  list-style: none;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.menuUl li {
+  padding: 13px 15px;
+}
+
+.menuUl a {
+  text-decoration: none;
+  color: white;
+}
+
+.menuItems {
+  font-size: 13.5px;
+}
+
+.active {
+  background-color: #345b8b;
+}
+
+.main {
+  color: white;
+}
+
+.getStarted {
+  padding: 0;
+}
+
+.getStartedInner {
+  background-color: #28293d;
+}
+
+.default-btn1 {
+  margin-top: 20px;
+  border: 0;
+  z-index: 1;
+  border-radius: 30px;
+  display: inline-block;
+  color: white;
+  padding: 15px 57px 15px 40px;
+  transition: 0.5s;
+  background: #ee362e;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.default-btn1:hover {
+  background-color: #40a4fa !important;
+}
+
+.default-btn1 i {
+  transition: 0.5s;
+  transform: translateY(-50%);
+  position: absolute;
+  margin-top: 2px;
+  line-height: 1;
+  right: 35px;
+  top: 50%;
+}
+
+/* .brokerage {
+  padding: 50px 210px 50px 210px;
+} */
+
+.brokerageDivs {
+  background-color: #28293d;
+  border-radius: 20px;
+  padding: 30px;
+  border: 1px solid #40a4fa00;
+}
+
+.brokerageHd {
+  color: white;
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  line-height: 28px;
+}
+
+.brokerageP {
+  color: #8f90a6;
+  font-size: 16px;
+}
+
+.brokerageDivs:hover {
+  border: 1px solid #40a4fa;
+}
+
+.contact_section {
+  border-radius: 20px;
+  padding: 85px 100px;
+  background-position: center center;
+  background-color: #28293d;
+  position: relative;
+  background-image: url("../../../../public/assets/front/images/shark/contact_img.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row-container {
+  flex-wrap: nowrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .row-container {
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+  }
+
+  .getStarted {
+    padding: 0 14px;
+  }
+}
+@media (max-width: 600px) {
+  .contact_section {
+    padding: 20px;
+  }
+}
+
+h3 {
+  font-size: 24px;
+}

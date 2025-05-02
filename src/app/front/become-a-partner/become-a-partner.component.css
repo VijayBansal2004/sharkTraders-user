@@ -1,0 +1,137 @@
+.pageBg1 {
+  background-color: #1c1c28;
+}
+
+.pageBg2 {
+  background-color: #12121c;
+  padding: 100px 115px;
+}
+
+.body {
+  padding: 100px 115px 0 115px;
+}
+
+.bodyHd {
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-size: 32px;
+}
+
+.bodyP {
+  font-size: 16px;
+  color: #f2f2f2;
+}
+
+.div {
+  padding: 30px 115px 0 115px;
+}
+
+.divInner {
+  display: flex;
+  flex-direction: row;
+}
+
+.overview-image img:nth-child(2) {
+  left: 0;
+  right: 0;
+  top: 53%;
+  position: absolute;
+  transform: translateY(-50%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+input,
+select {
+  background-color: #28293d;
+  border-radius: 5px;
+  height: 55px;
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+
+textarea {
+  background-color: #28293d;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+
+select {
+  border-bottom: 0px solid #d9d9d9 !important;
+}
+
+label {
+  color: white;
+  display: block;
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.form {
+  max-width: 616px;
+}
+
+.red {
+  color: red;
+}
+
+.halfWidth {
+  width: 50%;
+}
+
+.default-btn {
+  margin-top: 20px;
+  border: 0;
+  z-index: 1;
+  border-radius: 30px;
+  display: inline-block;
+  color: white;
+  padding: 15px 57px 15px 40px;
+  transition: 0.5s;
+  background: #40a4fa;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.default-btn:hover {
+  background-color: #ee362e !important;
+}
+
+.elementor a {
+  box-shadow: none;
+  text-decoration: none;
+}
+h4 {
+  font-size: 22px !important;
+}
+
+@media (max-width: 767px) {
+  .pageBg2 {
+    padding: 50px 15px;
+  }
+
+  h3 {
+    font-size: 24px !important;
+  }
+  h4 {
+    font-size: 16px !important;
+  }
+}

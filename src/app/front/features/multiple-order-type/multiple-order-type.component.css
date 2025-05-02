@@ -1,0 +1,104 @@
+.pageBg {
+  background-color: #1c1c28;
+}
+
+.menu {
+  background-color: #3476c4;
+  box-shadow: 0 20px 30px -10px #000000fc;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.menuUl {
+  list-style: none;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.menuUl a {
+  text-decoration: none;
+  color: white;
+  padding: 13px 15px !important;
+  display: inline-block;
+}
+
+.menuItems {
+  font-size: 13.5px;
+}
+
+.active {
+  background-color: #345b8b;
+}
+
+.main {
+  color: white;
+}
+
+/* .getStarted {
+  padding: 100px 115px 0 115px;
+} */
+
+.getStartedInner {
+  background-color: #28293d;
+}
+
+.default-btn1 {
+  margin-top: 20px;
+  border: 0;
+  z-index: 1;
+  border-radius: 30px;
+  display: inline-block;
+  color: white;
+  padding: 15px 57px 15px 40px;
+  transition: 0.5s;
+  background: #ee362e;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.default-btn1:hover {
+  background-color: #40a4fa !important;
+}
+
+.default-btn1 i {
+  transition: 0.5s;
+  transform: translateY(-50%);
+  position: absolute;
+  margin-top: 2px;
+  line-height: 1;
+  right: 35px;
+  top: 50%;
+}
+
+.contact_section {
+  border-radius: 20px;
+  padding: 85px 100px;
+  background-position: center center;
+  background-color: #28293d;
+  position: relative;
+  background-image: url("../../../../../public/assets/front/images/shark/contact_img.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+@media (max-width: 767px) {
+  .contact_section {
+    padding: 25px 15px;
+  }
+
+  .contact_section h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 23px;
+  }
+}

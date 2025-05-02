@@ -1,0 +1,158 @@
+.pageBg2 {
+  background-color: #1c1c28;
+  padding: 100px 115px;
+}
+
+.bodyHd {
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-size: 38px;
+  padding-bottom: 65px;
+  line-height: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+input {
+  background-color: #111111;
+  border-radius: 5px;
+  height: 55px;
+  width: 100%;
+  border: 1px solid #333;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+
+textarea {
+  background-color: #111111;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #333;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+
+label {
+  color: white;
+  display: block;
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.form {
+  max-width: 792px;
+  margin: auto;
+}
+
+.red {
+  color: red;
+}
+
+.halfWidth {
+  width: 50%;
+}
+
+.default-btn {
+  margin-top: 20px;
+  border: 0;
+  z-index: 1;
+  border-radius: 30px;
+  display: inline-block;
+  color: white;
+  padding: 15px 57px 15px 40px;
+  transition: 0.5s;
+  background: #40a4fa;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.default-btn:hover {
+  background-color: #ee362e !important;
+}
+
+.div12 {
+  margin-top: 100px;
+}
+
+.div12Inner {
+  background-color: #28293d;
+}
+
+.default-btn1 {
+  margin-top: 20px;
+  border: 0;
+  z-index: 1;
+  border-radius: 30px;
+  display: inline-block;
+  color: white;
+  padding: 15px 57px 15px 40px;
+  transition: 0.5s;
+  background: #ee362e;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.default-btn1:hover {
+  background-color: #40a4fa !important;
+}
+
+.default-btn1 i {
+  transition: 0.5s;
+  transform: translateY(-50%);
+  position: absolute;
+  margin-top: 2px;
+  line-height: 1;
+  right: 35px;
+  top: 50%;
+}
+
+.contact_section {
+  border-radius: 20px;
+  padding: 85px 100px;
+  background-position: center center;
+  background-color: #28293d;
+  position: relative;
+  background-image: url("../../../../public/assets/front/images/shark/contact_img.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  .pageBg2 {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact_section {
+    padding: 20px;
+  }
+
+  .div12 {
+    margin-top: 50px;
+  }
+  h2 {
+    font-size: 20px !important;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .form-submit {
+    width: 100% !important;
+    text-align: center;
+  }
+}

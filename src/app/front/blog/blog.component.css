@@ -1,0 +1,94 @@
+.pageBg {
+  background-color: #12121c;
+}
+
+.custom-container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.img {
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.liName {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.liDate {
+  color: #a2a2a7;
+  font-size: 15px;
+}
+
+.colInfo {
+  padding: 40px 40px;
+}
+
+.colHd {
+  font-size: 22px;
+  color: white !important;
+  font-weight: 500;
+}
+
+.colP {
+  font-size: 16px;
+  color: white !important;
+  margin-bottom: 22px;
+  line-height: 1.8;
+  margin-top: 30px;
+}
+
+.fa-arrow-right:before {
+  content: "\f061";
+  color: white;
+  font-size: 21px;
+}
+
+.custom-row {
+  display: flex;
+  gap: 30px 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.custom-row > div {
+  max-width: 32%;
+  background-color: #28293d;
+  border-radius: 20px;
+  padding: 0;
+}
+
+.custom-row > div:hover img {
+  transform: scale(1.08);
+}
+
+.img-container {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+@media (max-width: 991px) {
+  .custom-row > div {
+    max-width: 47%;
+  }
+}
+
+@media (max-width: 600px) {
+  .custom-row {
+    margin: 0 15px;
+  }
+  .custom-row > div {
+    max-width: 100%;
+  }
+
+  .colInfo {
+    padding: 20px 15px;
+  }
+
+  .colHd {
+    line-height: normal;
+  }
+}
